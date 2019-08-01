@@ -1,0 +1,32 @@
+<p>add-employee works!</p>
+<form #details="ngForm" (ngSubmit)="add(details.value)">
+    <table>
+        <tr>
+            <td><span>Employee Id</span></td>
+            <td> <input type="text" name="eid" ngModel></td>
+        </tr>
+        <tr>
+            <td><span>Employee Name</span></td>
+            <td><input type="text" name="ename" ngModel></td>
+        </tr>
+
+        <tr>
+            <td><span>Employee Designation</span></td>
+            <td> <input type="text" name="edesignation" ngModel></td>
+        </tr>
+        <tr>
+            <td><span>Employee Address</span></td>
+            <td><input type="text" name="eaddr" ngModel></td>
+        </tr>
+
+        <tr>
+            <td><span>Employee Contact</span></td>
+            <td> <input type="text" name="econtact" ngModel></td>
+        </tr>
+
+        <span> <input type="submit" value="Add Employee"></span>
+    </table>
+</form>
+<tr *ngIf="createdFlag;">
+    created User={{createdEmployee}}
+</tr>

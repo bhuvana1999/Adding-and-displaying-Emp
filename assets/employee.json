@@ -1,0 +1,12 @@
+[
+{"Id":67, 
+"Name":"Chikku", 
+"Designation":"analyst", 
+"Address":"Chennai",
+"Contact":8870952217},
+{"Id":68,
+ "Name":"Bunny",
+ "Designation":"software engineer", 
+ "Address":"Telangana", 
+ "Contact":8870971225}
+]

@@ -1,0 +1,20 @@
+<p>display-employee works!</p>
+
+
+<table align="center" border="10" >
+    
+    <tr>
+        <th>Employee Id</th>
+        <th>Employee name</th>
+        <th>Employee Designation</th>
+        <th>Employee Address</th>
+        <th>Employee Contact</th>
+    </tr>
+    <tr *ngFor="let details of employeeobj" >
+        <td>{{details.Id}}</td>
+        <td>{{details.Name}}</td>
+        <td>{{details.Designation}}</td>
+        <td>{{details.Address}}</td>
+        <td>{{details.Contact}}</td>
+    </tr>
+</table>
